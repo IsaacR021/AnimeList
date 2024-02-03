@@ -1,0 +1,132 @@
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding-left:30px;
+    padding-right:0px;
+    border-bottom: 1px solid black;
+    background-color: #474761;
+    overflow: hidden;
+    font-family: Georgia,serif;
+    margin :8px;
+  }
+  
+  header a{
+    color: #CDCDDE;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+  
+  header a:hover{
+    background-color: #807c7c;
+    color: rgb(51, 49, 49);
+    
+    }
+  
+  .div-navbar{
+    padding: 14px 16px;
+    
+  }
+  
+  
+  
+  #logo{
+    padding-right: 0px;
+    padding-left: 80px;
+    width: 130px;
+    height: 50px;
+  }
+  
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:#1b1b29;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+   
+    
+}
+
+
+h1 {
+    color: white
+}
+
+
+form {
+    
+    text-align: center;
+    width: 50%;
+    background-color: #474761;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    height: 440px;
+   
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ea0e0e;
+}
+
+
+input[type="email"],
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+    width: 35%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+}
+
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+
+
+.input{
+    position: relative;
+    top: 2vh;}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.image{
+    margin: 0 auto 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 150px;
+}
+
+.inforegistro{
+  font-family: Consolas,"Nimbus Mono L";
+  position: absolute;
+  color: rgb(198, 19, 19);
+  width: 100%;
+  
+  
+ }

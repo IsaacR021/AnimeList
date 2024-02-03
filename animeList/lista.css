@@ -1,0 +1,141 @@
+body {
+font-family: Georgia, serif;
+background-color: #1b1b29;
+}
+
+h1 {
+text-align: center;
+color: #CDCDDE;
+}
+
+#butao{
+    margin-block-end: 0px;
+}
+
+.modal{
+    width: 500px;
+    height: 600px;
+    position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    display: none; 
+    background-color: #5f5f8b;
+    border-radius: 30px;
+    box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #1b1b29;  
+}
+.modal textarea{position: relative;
+    top: 50px;
+    left: 50px;
+    
+}
+
+.modal label {
+    position: relative;
+    font-weight: bold; 
+    font-size: 20px;   
+    color: #1f1e1e;
+    top: 50px;
+    left: 50px;     
+  }
+
+.modal input{
+    position: relative;
+    height: 50px;
+    width: 100px;
+    top: 100px;
+    left: 50px;
+    font-size: 13px;
+
+}
+.modal label#personalize{
+    position: absolute;
+    font-weight: bold; 
+    font-size: 20px;   
+    color: black;
+    top: 5px;
+    left: 30px;   
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#fechar{
+    float: right;
+}
+
+
+
+#list{
+font-family: Georgia, serif;
+text-align: center;
+margin-bottom: 60px;
+margin-left: 30px;
+background-color: #f2f2f2;
+padding: 7px;
+color: #333;
+}
+
+#animeList {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 20px;
+}
+
+.anime {
+width: 300px;
+background-color: #fff;
+padding: 20px;
+margin:5px
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    padding-left:30px;
+    padding-right:30px;
+    border-bottom: 1px solid black;
+    background-color:  #474761;
+}
+
+header a{
+   
+        padding: 14px 16px;
+}
+    
+header a:hover{
+            background-color: #807c7c;
+            color: rgb(51, 49, 49);
+}
+    
+.separador{
+                display: inline-block;
+                padding: 14px;
+                padding-left: 16px;
+    }        
+    
+a:link, a:visited {
+        color: #CDCDDE;
+}
+
+.search-container {
+display: flex;
+justify-content: center;
+border-radius: 15px;
+height: 28px;
+}

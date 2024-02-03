@@ -1,0 +1,108 @@
+header{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    padding-left:30px;
+    padding-right:30px;
+    border-bottom: 1px solid black;
+    background-color: #474761;
+    overflow: hidden;
+    font-family: Georgia,serif;
+    margin :8px;
+    }
+    
+    
+    header a{
+    color: #CDCDDE;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    header a:hover{
+    background-color: #807c7c;
+    color: rgb(51, 49, 49);
+    
+    }
+    
+    #logo{
+    padding-right: 0px;
+    padding-left: 80px;
+    width: 130px;
+    height: 50px;
+    }
+    
+    body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b29;
+    }
+    
+    h1 {
+    text-align: center;
+    color: #CDCDDE;
+    padding: 14px 16px;
+    text-decoration: none
+    }
+    
+    .Tabela-anime {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+      color:#CDCDDE
+    }
+    
+    .Tabela-anime th, .Tabela-anime td {
+    border: 3px solid #CDCDDE;
+    padding: 10px;
+    text-align: center;
+      color:#CDCDDE
+    }
+    
+    .Tabela-anime th {
+    background-color:#2B2B40;
+      color:#CDCDDE
+    }
+    
+    .imagem-anime {
+    max-width: 100px;
+    }
+    
+    footer{
+        border: 2px solid #2B2B40;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        padding: 41px;
+        height: 40px;
+        display: flex;
+        background-color: #474761;
+    
+    }
+    
+    footer a{
+    
+        padding: 14px 16px;
+    }
+    
+    footer a:hover{
+            background-color: #807c7c;
+            color: rgb(51, 49, 49);
+    
+    }
+    
+    
+    .footer_content{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .content{
+        width: 610px;
+        height: 30px;
+        justify-content: space-evenly;
+    }

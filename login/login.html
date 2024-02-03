@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="./logo.png">
+            <a href="./../profile/profile.php">Perfil</a>
+            <a href="./../animeList/lista.php">Animes</a>
+            <a href="./../forum/forum.php">Fórum</a>
+            <a href="./../sobrenos/sobrenos.php">Sobre</a>
+            <a href="./../lista/lista.php">Lista</a>
+        
+            <div class="div-navbar">
+            
+            <a href="./../login/login.html">Login</a>
+            <a href="./../registro/registro.html">Registrar</a>
+            <a href="./../sair/sair.php">Sair</a>
+            
+            </div>
+        <script src="mostrar_senha.js"></script>
+    
+    </header>
+
+    <div class="cont">
+        <img class="image" src="img.jpg" alt="foto">
+        <div class="card">
+
+            <div class="card-info">
+                <div id="info-mensagem"></div>
+                
+                
+                <div class="content">
+                    <label class="checkBox">
+                      <input id="ch1" type="checkbox"  onchange="mostrar()" >
+                      <div class="transition"></div>
+                    </label>
+                </div>
+               
+                
+                <h1>LOGIN</h1>
+                <form id="loginForm" action="login.php" method="post">
+                    <input type="text" id="username" name="username"  placeholder="Username" class="input"><br>
+                    <input type="password" id="senha" name="senha"  placeholder="Senha" class="input"><br>
+                    <button type="submit" name="botao_enviar">Entrar</button>
+            </div>
+                </form>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>
